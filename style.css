@@ -1,36 +1,94 @@
-body {
-    margin:50px 0px; padding:0px;
-    text-align:center;
-    align:center;
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-label {
-    display:block;
-    font-size: 20px;
-    margin: 20px 0 10px;
-    font-family: 'Gotu', sans-serif;
-    font-weight: bold;
+html{
+    scroll-behavior: smooth;
 }
-.input {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    padding: 10px;
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.background-section-two{
+    background-image: url(../assets/bf.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-container{
+    background: beige;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 590px;
+    display: grid;
 
 }
-.full {
-    width:10%;
-    padding: 15px 0;
-    background: #FF1493;
+input{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 12px;
+    background: #000;
+    color:#fff;
+    transition: 1s all;
+	cursor: pointer;
+}
+
+input:hover {
+	background: red;
+	transform: scale(1.2);
+}
+form{
+    display: grid;
+}
+
+button{
+    display: grid;
+    padding: 2px;
+    background: red;
+    text-align: center;
     color: white;
-    font-weight: bold;
-    font-size: 14px;
-    border: none;
-    border-radius: 5px;
-    margin: 0 auto;
+    border-radius: 10px;
+}
 
-  form {
-    text-align: left; 
-    margin-left: auto;
-    margin-right: auto;
-  }
+h5  strong{
+    color: blue;
+}
+
+footer{
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.background-section-tree{
+    background-image: url(../assets/cd.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 100px;
+}
