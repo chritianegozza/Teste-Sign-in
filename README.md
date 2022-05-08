@@ -1,8 +1,8 @@
-# Teste-Sign-in
+#  🚀 Teste  Sign-in
 ************************************************
 
 ************************************************
-Projeto
+🧩 Projeto
 
 Esse projeto foi desenvolvido para um processo
 seletivo.
@@ -10,12 +10,13 @@ Uma página de login, quando logar mandar a
 confirmação para o usuário.
 
 ************************************************
-Linguagem
+👩🏻‍💻  Linguagem
 
-HTML
+✅HTML
 
-CSS
+✅CSS
 
-JAVASCRIPT
+✅JAVASCRIPT
 
 ************************************************
+Caso tenha alguma duvida sobre o projeto, pode entrar em contato comigo.
